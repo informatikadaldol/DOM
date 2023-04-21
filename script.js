@@ -18,3 +18,12 @@ h1[0].style.fontSize = ('50px');
 //getElementsByClassName() -->HTML collection
 const p1 = document.getElementsByClassName('p1')[0];
 p1.innerHTML = ('ini di ubah di javascript');
+
+
+//document.querySelector() --> element
+const p4 = document.querySelector('#b p');
+p4.style.color = ('green');
+p4.style.fontSize = ('30px');
+
+const li2 = document.querySelector('li:nth-child(2)');
+li2.style.backgroundColor = ('orange');
